@@ -79,7 +79,7 @@ html, body{
 }
 
 .right{
-    
+    position: relative;
     padding: 40px 100px 40px 0px;
     grid-column: 3/4;
     grid-row: 1/4;
@@ -92,4 +92,22 @@ html, body{
     width: 100%;
     object-position: 0% 10%;
     object-fit: cover;
+}
+
+.right .arrow{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 45%;
+    left: -5%;
+}
+
+.right .arrow i{
+    font-size: 30px;
 }
